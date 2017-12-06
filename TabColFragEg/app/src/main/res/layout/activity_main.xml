@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sunil.tabcolfrageg.MainActivity">
+
+    <Button
+        android:id="@+id/bt_frag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fragmentChange"
+        android:text="@string/FRAGMENT1" />
+
+    <Button
+        android:id="@+id/bt_frag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fragmentChange"
+        android:text="@string/FRAGMENT2" />
+
+    <fragment
+        android:name="com.example.sunil.tabcolfrageg.FragmentONE"
+        android:id="@+id/fragmentplace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
